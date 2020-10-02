@@ -52,4 +52,5 @@ def print_number(number, char):
         res.append(temp)
     res.append(char+" "*38+char)
     res.append(char*40)
+    print("\n".join(res))
     return "\n".join(res)
