@@ -1,11 +1,3 @@
 def solution(s):
-    if len(s) % 2 == 1:
-        s += "_"
-    result = []
-    count = 0
-    while True:
-        if count+2 > len(s):
-            break
-        result.append(s[count:count+2])
-        count += 2
-    return result
+    s=s+"_"*(len(s)%2)
+    return [s[i:i+2] for i in range(0, len(s), 2)]

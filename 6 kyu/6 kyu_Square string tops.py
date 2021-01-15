@@ -1,12 +1,11 @@
 def tops(msg):
-    count = 2
-    start = 2
-    increment = 7
-    solution = ""
-    while True:
-        if start >= len(msg):
-            return solution
-        solution = msg[start:start+count]+solution
-        start += increment
-        count += 1
-        increment += 4
+    total=3
+    increment=7
+    count=1
+    res=""
+    while total<len(msg):
+        res=msg[total-1:total+count]+res
+        total+=increment
+        increment+=4
+        count+=1
+    return res
