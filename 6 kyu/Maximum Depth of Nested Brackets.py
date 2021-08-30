@@ -13,4 +13,4 @@ def strings_in_max_depth(s):
             temp=[]
         else:
             temp.append(i)
-    return res
+    return res if res else ["".join(temp)]
