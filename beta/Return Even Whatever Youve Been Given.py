@@ -1,1 +1,0 @@
-def always_even(n): return n-n%2
