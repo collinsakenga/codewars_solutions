@@ -1,0 +1,1 @@
+const madAdd=(x,y)=>x-(-y)

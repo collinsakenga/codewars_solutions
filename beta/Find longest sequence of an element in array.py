@@ -1,3 +1,4 @@
+# return the length of the longest sequence of the value in the array
 def longest_sequence(arr, elem):
     if elem not in arr:
         return 0 

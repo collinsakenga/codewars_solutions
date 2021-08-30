@@ -1,0 +1,1 @@
+the_vault=lambda s:["Error","Correct"][s=="Error404"]
